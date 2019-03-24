@@ -4,7 +4,9 @@ Objetivo: Obtener los conocimientos básicos sobre el maquetado de una página
 
 ## Links de interés
 
-- [Wireframes: Que son y como crearlos](https://webdesdecero.com/wireframes-que-son-y-como-crearlos/)
+- [Wireframes: Que son y como crearlos](https://webdesdecero.com/wireframes-que-son-y-como-crearlos/);
+- [HTML Validator / Linter](https://www.freeformatter.com/html-validator.html);
+- [The W3C Markup Validation Service](https://validator.w3.org/);
 
 ## Teórico
 
