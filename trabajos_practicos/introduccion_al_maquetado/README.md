@@ -40,13 +40,13 @@ Objetivo: Obtener los conocimientos básicos sobre el maquetado de una página
     Para HTML, esta declaración es la siguiente:
     
     ```html
-        <!DOCTYPE html>
+      <!DOCTYPE html>
     ```
     
     Un documento HTML debe incluir los cuatro tags `<html>`, `<head>`, `title`, y `<body>`. El tag `<html>` identifica el elemento raíz del documento. Por lo que los documentos HTML, siempre tienen un tag `<html>` a continuación del comando DOCTYPE y siempre terminan con el tag de cierre `</html>`. El elemento `html` incluye un atributo, `lang`, que especifica el lenguage en el cual el documento esta escrito, como se muestra a continuación:
     
     ```html
-        <html lang="en">
+      <html lang="en">
     ```
     
     En este ejemplo, el lenguage que se ha especificado es Inglés.
@@ -54,7 +54,7 @@ Objetivo: Obtener los conocimientos básicos sobre el maquetado de una página
     Un documento HTML consiste en dos partes, el `head` y el `body`. El elemento `head` provee la información acerca del documento pero no provee el contenido. El elemento `head` contiene dos simples elementos, un elemento `title` y un elemento `meta`. El elemento `meta` es utilizado para proveer información adicional acerca de un documento. No posee contenido. Toda la información que provee lo hace a travéz de atributos. Como mínimo el elemento `meta` especifica el conjunto de carácteres usado para escribir el documento. El conjunto de carácteres mas popular usado por la Web es el 8-bit Unicode Transformation Format (UTF-8). Este conjunto de carácteres usa desde 1 byte hasta 6 bytes para representar un carácter, y es compatible con el conjunto de carácteres ASCII. Éste es el elemento `meta` necesario:
     
     ```html
-       <meta charset="utf-8"/>
+      <meta charset="utf-8"/>
     ```
     
     La barra invertida al final del elemento `/` indica que no posee tag de cierre.
@@ -76,13 +76,14 @@ Objetivo: Obtener los conocimientos básicos sobre el maquetado de una página
         <body>
         ...
         </body>
-       </html>
+      </html>
     ```
 
 3. ¿Cuál es la utilidad e importancia de los enlaces o links entre páginas? ¿Qué significa hipertexto? ¿Un link solo puede apuntar a otra página? ¿Qué importancia tiene esto último?
 
-4. ¿Qué es el Rendering Engine de un Browser? ¿Cuál es el que utiliza cada uno de los 5 browsers más conocidos (Chrome, Firefox, Safari, IE-Edge, Opera)? ¿Cuál es la importancia de conocer cada uno de ellos en la construcción de un sitio?
 
+
+4. ¿Qué es el Rendering Engine de un Browser? ¿Cuál es el que utiliza cada uno de los 5 browsers más conocidos (Chrome, Firefox, Safari, IE-Edge, Opera)? ¿Cuál es la importancia de conocer cada uno de ellos en la construcción de un sitio?
 
 
 ## Bibliografía
