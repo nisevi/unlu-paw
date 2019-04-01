@@ -81,8 +81,74 @@ Objetivo: Obtener los conocimientos básicos sobre el maquetado de una página
 
 3. ¿Cuál es la utilidad e importancia de los enlaces o links entre páginas? ¿Qué significa hipertexto? ¿Un link solo puede apuntar a otra página? ¿Qué importancia tiene esto último?
 
+    Un enlace de hipertexto en un documento HTML, actúa como un puntero a algún lugar en particular en algún recurso web. Ese recurso puede ser un documento HTML en cualquier lugar de la Web o puede ser el documento que se muestra actualmente. Sin enlaces, los documentos web serían aburridos y tediosos de leer. No habría una manera conveniente para que el usuario del navegador pase de un documento a un documento relacionado lógicamente. La mayoría de los sitios web constan de muchos documentos diferentes, todos vinculados lógicamente. Por lo tanto, los enlaces son esenciales para construir un sitio web interesante.
 
+    Un enlace que apunta a un recurso diferente especifica la dirección de ese recurso. Dicha dirección puede ser un nombre de archivo, un directorio y un nombre de archivo, o una URL.
+    
+    Los enlaces se especifican en el atributo `href` del elemento `<a>`. El documento cuya dirección se especifica en un elemento `<a>` se denomina destino de ese enlace.
+    
+    Para crear enlaces, solo se requiere un atributo: `href` (un acrónimo de referencia de hipertexto). El valor asignado a `href` especifica el destino del enlace. Si el destino está en otro documento en el mismo directorio, es solo el nombre del archivo del documento. Si el documento de destino está en algún otro directorio, se utilizan las convenciones de nombre de directorios de UNIX. Por ejemplo, supongamos que tenemos un documento en el directorio `public_html`, que está vinculado a un documento llamado `C210data.html`, que se almacena en el subdirectorio de nombre `airplanes` dentro del directorio `public_html`. El valor del atributo `href` del elemento `<a>` sería "**airplanes/c210data.html**".
+    
+    Si el destino está en un documento diferente, ese documento se carga y se muestra, reemplazando el documento que se muestra actualmente:
 
+    ```html
+       <a href="airplanes/c210data.html">
+    ```
+    
+    Ejemplo completo:
+    
+    ```html
+      <!DOCTYPE html>
+      <html lang="en">
+        <head>
+          <title> A title for the document </title>
+          <meta charset="utf-8" />
+          ...
+        </head>
+        <body>
+          <h1 id="h1_title">Titulo H1</h1>
+          <h2 id="h2_title">Titulo H2</h1>
+          <h3 id="h3_title">Titulo H3</h1>
+          <h4 id="h4_title">Titulo H4</h1>
+          <h5 id="h5_title">Titulo H5</h1>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+          </p>
+          <a href="airplanes/c210data.html">
+        </body>
+      </html>
+    ```
+
+    Si el destino está en el documento actual, el navegador desplazará para mostrar la parte del documento en la que se define el destino del enlace:
+
+    ```html
+       <a href="#ID">
+    ```
+ 
+    Ejemplo completo:
+    
+    ```html
+      <!DOCTYPE html>
+      <html lang="en">
+        <head>
+          <title> A title for the document </title>
+          <meta charset="utf-8" />
+          ...
+        </head>
+        <body>
+          <h1 id="h1_title">Titulo H1</h1>
+          <h2 id="h2_title">Titulo H2</h1>
+          <h3 id="h3_title">Titulo H3</h1>
+          <h4 id="h4_title">Titulo H4</h1>
+          <h5 id="h5_title">Titulo H5</h1>
+          <p>
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+          </p>
+          <a href="#h1_title">
+        </body>
+      </html>
+    ```
+    
 4. ¿Qué es el Rendering Engine de un Browser? ¿Cuál es el que utiliza cada uno de los 5 browsers más conocidos (Chrome, Firefox, Safari, IE-Edge, Opera)? ¿Cuál es la importancia de conocer cada uno de ellos en la construcción de un sitio?
 
 
