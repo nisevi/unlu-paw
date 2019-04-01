@@ -7,6 +7,7 @@ Objetivo: Obtener los conocimientos básicos sobre el maquetado de una página
 - [Wireframes: Que son y como crearlos](https://webdesdecero.com/wireframes-que-son-y-como-crearlos/);
 - [HTML Validator / Linter](https://www.freeformatter.com/html-validator.html);
 - [The W3C Markup Validation Service](https://validator.w3.org/);
+- [ColorSlurp](http://colorslurp.com/);
 
 ## Teórico
 
@@ -360,6 +361,8 @@ Objetivo: Obtener los conocimientos básicos sobre el maquetado de una página
         </tbody>
       </table>
     ```
+    
+    En caso de que se necesite visualizar el diseño completo puede en CodePen [aquí](https://codepen.io/nisevi/pen/MRWqdO) o bien puede visitar el gist [aquí](https://gist.github.com/nisevi/47e93c0fff130f45a0388b8fc52a09e3).
 
 ## Bibliografía
 
