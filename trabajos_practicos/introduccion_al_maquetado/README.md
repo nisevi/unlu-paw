@@ -151,8 +151,19 @@ Objetivo: Obtener los conocimientos básicos sobre el maquetado de una página
     
 4. ¿Qué es el Rendering Engine de un Browser? ¿Cuál es el que utiliza cada uno de los 5 browsers más conocidos (Chrome, Firefox, Safari, IE-Edge, Opera)? ¿Cuál es la importancia de conocer cada uno de ellos en la construcción de un sitio?
 
+Un motor de renderizado es un software que dibuja texto e imágenes en la pantalla. El motor extrae texto estructurado de un documento (a menudo HTML), y lo formatea adecuadamente en función de las declaraciones de estilo dadas (a menudo, dadas en CSS). Ejemplos de motores de diseño: Blink, Gecko, Edge, WebKit.
+
+|  Engine  |         Browser      |
+|----------|:--------------------:|
+| WebKit   |  Safari              |
+| Blink    |  Chrome, Opera, Edge |
+| Gecko    |  Firefox             |
+
+
 
 ## Bibliografía
 
 - [Lenguaje de marcado](https://es.wikipedia.org/wiki/Lenguaje_de_marcado);
 - Programming The World Wide Web. Eighth Edition. By Robert W. Sebesta;
+- [Rendering engine](https://developer.mozilla.org/en-US/docs/Glossary/Rendering_engine);
+- [Comparison of browser engines](https://en.wikipedia.org/wiki/Comparison_of_browser_engines);
