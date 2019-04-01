@@ -179,7 +179,7 @@ Objetivo: Obtener los conocimientos básicos sobre el maquetado de una página
     - [pdf]();
     - [bmpr]();
     
-    Código HTML5 correspondient:
+    Código HTML5 correspondiente:
     
     ```html
     ```
