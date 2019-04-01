@@ -161,6 +161,41 @@ Objetivo: Obtener los conocimientos básicos sobre el maquetado de una página
 
     Conocer cada uno de estos motores de renderizado nos ayudará a comprender el proceso por el cual pasan los documentos HTML al momento de ser renderizados, las políticas de seguridad que estan siendo implementadas así como también el manejo de hipervínculos y formularios web.
 
+## Práctico
+
+5. Dibujar el Wireframe correspondiente a la página principal de [lujan.gob.ar](http://www.lujan.gob.ar/) y en función a este desarrollar el código HTML5 correspondiente.
+
+    *Nota: Realizar una captura en imagen del sitio a fin de poder corregir contrastando con lo que muestra el sitio ese día ya que puede variar.*
+
+    Para el maquetado he utilizado la herramienta llamada `Balsamiq`.
+    
+    Por error he maquetado la página principal de la UNLu:
+    
+    - Documento `pdf` con el maquedado del sitio puede ser encontrado [aquí](https://github.com/nisevi/paw/blob/master/trabajos_practicos/introduccion_al_maquetado/maquetado_unlu.pdf);
+    - Documento `bmpr` (entensión propia de la herramienta) puede ser encontrado [aquí](https://github.com/nisevi/paw/blob/master/trabajos_practicos/introduccion_al_maquetado/maquetado_unlu.bmpr);
+    
+    A continuación el maquetado del sitio web de la Municipalidad de Luján:
+    
+    - [pdf]();
+    - [bmpr]();
+    
+    Código HTML5 correspondient:
+    
+    ```html
+    ```
+
+6. Elabore en HTML5 una página que contenga su currículum vítae, respetando la estructura que se muestra a continuación. Tenga en cuenta que los elementos subrayados son enlaces a páginas web o a direcciones de correo electrónico y que la foto debe ser un enlace a la propia imagen. Determine qué tags con qué atributos son necesarios en cada caso.
+
+    ```html
+    ```
+
+7. Elabore el código necesario para representar la siguiente tabla:
+
+    ![](https://github.com/nisevi/paw/blob/master/trabajos_practicos/introduccion_al_maquetado/practico_punto_7_tabla.png)
+
+    ```html
+    ```
+
 ## Bibliografía
 
 - [Lenguaje de marcado](https://es.wikipedia.org/wiki/Lenguaje_de_marcado);
