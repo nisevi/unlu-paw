@@ -169,10 +169,10 @@ Objetivo: Obtener los conocimientos básicos sobre el maquetado de una página
 
     Para el maquetado he utilizado la herramienta llamada `Balsamiq`.
     
-    Por error he maquetado la página principal de la UNLu:
+    ~~Por error he maquetado la página principal de la UNLu:~~
     
-    - Documento `pdf` con el maquedado del sitio puede ser encontrado [aquí](https://github.com/nisevi/paw/blob/master/trabajos_practicos/introduccion_al_maquetado/maquetado_unlu.pdf);
-    - Documento `bmpr` (entensión propia de la herramienta) puede ser encontrado [aquí](https://github.com/nisevi/paw/blob/master/trabajos_practicos/introduccion_al_maquetado/maquetado_unlu.bmpr);
+    - ~~Documento `pdf` con el maquedado del sitio puede ser encontrado [aquí](https://github.com/nisevi/paw/blob/master/trabajos_practicos/introduccion_al_maquetado/maquetado_unlu.pdf);~~
+    - ~~Documento `bmpr` (entensión propia de la herramienta) puede ser encontrado [aquí](https://github.com/nisevi/paw/blob/master/trabajos_practicos/introduccion_al_maquetado/maquetado_unlu.bmpr);~~
     
     A continuación el maquetado del sitio web de la Municipalidad de Luján:
     
