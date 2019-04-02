@@ -8,3 +8,7 @@
 - [Introducción a PHP](https://slides.com/tomasdelvechio/backend-1#/);
 - [Primer ejemplo de estructura de Proyecto en PHP para una App Web](https://gitlab.com/pawunlu/mvc-example-nivel-1);
 - PHP [Website](https://www.php.net/);
+
+## Práctico
+
+[Aquí](https://github.com/nisevi/paw/tree/master/trabajos_practicos/tecnologias_del_lado_del_servidor/app_tp2) puede encontrar el proyecto.
