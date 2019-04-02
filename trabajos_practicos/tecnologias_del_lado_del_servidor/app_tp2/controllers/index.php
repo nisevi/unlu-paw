@@ -1,6 +1,6 @@
 <?php
 
-$title = 'First page';
-$main_title = "Title here!";
+$title = "OSDE";
+$main_title = "Make your request!";
 
-require 'views/index.view.php';
+require "views/index.view.php";

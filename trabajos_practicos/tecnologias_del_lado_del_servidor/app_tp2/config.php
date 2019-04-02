@@ -7,7 +7,7 @@ class Config
     public function __construct()
     {
         $this->document_root = __DIR__;
-        $this->database_engine = 'mysql';
+        $this->database_engine = "mysql";
     }
 
     public function getStaticPath($static_name)

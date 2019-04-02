@@ -1,7 +1,7 @@
 <?php
 
-$title = 'Contact page';
+$title = "Contact page";
 $main_title = "Contact with us!";
 $content = "";
 
-require 'views/contact.view.php';
+require "views/contact.view.php";
