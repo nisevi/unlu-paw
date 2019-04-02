@@ -1,6 +1,6 @@
 # Introducción al maquetado
 
-Objetivo: Obtener los conocimientos básicos sobre el maquetado de una página web.
+**Objetivo**: Obtener los conocimientos básicos sobre el maquetado de una página web.
 
 ## Links de interés
 

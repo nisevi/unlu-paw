@@ -1,6 +1,6 @@
 # Tecnologías del lado del servidor
 
-Objetivo: Iniciarse en los primeros conceptos relacionados con la programación web desde el punto de vista del Backend. Empezar a ent cómo se realiza el procesamiento de una petición HTTP y la generación de su respuesta.
+**Objetivo**: Iniciarse en los primeros conceptos relacionados con la programación web desde el punto de vista del Backend. Empezar a ent cómo se realiza el procesamiento de una petición HTTP y la generación de su respuesta.
 
 ## Links de interés:
 
