@@ -1,0 +1,37 @@
+body {
+  background: #4e514e;
+}
+
+header, main {
+  max-width: 1024px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+}
+
+/* Nav styles */
+
+nav.main-nav ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+nav.main-nav ol li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+nav.main-nav ol li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.active {
+  background-color: #8D9E8D;
+  color: white;
+}
