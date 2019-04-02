@@ -4,6 +4,7 @@ Objetivo: Obtener los conocimientos básicos sobre el maquetado de una página
 
 ## Links de interés
 
+- [Documento](https://github.com/nisevi/paw/blob/master/trabajos_practicos/introduccion_al_maquetado/PAW_TP1_HTML.pdf) donde se detallan los puntos a resolver;
 - [Wireframes: Que son y como crearlos](https://webdesdecero.com/wireframes-que-son-y-como-crearlos/);
 - [HTML Validator / Linter](https://www.freeformatter.com/html-validator.html);
 - [The W3C Markup Validation Service](https://validator.w3.org/);
