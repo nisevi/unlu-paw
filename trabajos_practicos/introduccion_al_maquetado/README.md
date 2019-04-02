@@ -182,7 +182,7 @@
     - [pdf](https://github.com/nisevi/paw/blob/master/trabajos_practicos/introduccion_al_maquetado/municipalidad_de_lujan.pdf);
     - [bmpr](https://github.com/nisevi/paw/blob/master/trabajos_practicos/introduccion_al_maquetado/municipalidad_de_lujan.bmpr);
     
-    El HTML correspondiente puede ser encontrado [aquí]().
+    El HTML correspondiente puede ser encontrado [aquí](https://github.com/nisevi/paw/blob/master/trabajos_practicos/introduccion_al_maquetado/municipalidad_de_lujan.html).
 
 6. Elabore en HTML5 una página que contenga su currículum vítae, respetando la estructura que se muestra a continuación. Tenga en cuenta que los elementos subrayados son enlaces a páginas web o a direcciones de correo electrónico y que la foto debe ser un enlace a la propia imagen. Determine qué tags con qué atributos son necesarios en cada caso.
 
