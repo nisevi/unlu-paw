@@ -18,11 +18,17 @@
 5. Utilice las herramientas para desarrollador del navegador y observe cómo fueron codificados por el navegador los datos enviados por el navegador en los dos ejercicios anteriores. ¿Qué diferencia nota?
 
 6. Agregar persistencia al sistema de turnos. Todos los datos del formulario deben almacenarse mediante algún mecanismo para poder ser recuperados posteriormente. Crear una nueva vista que le permita a un empleado administrativo visualizar todos los turnos en una tabla. La tabla debe incluir los siguientes campos:
+
     a. Fecha del turno
+
     b. Horadelturno
+
     c. Nombre del paciente
+
     d. Teléfono
+
     e. Email
+
     f. Link a la ficha del turno (la ficha se implementa en el siguiente punto)
 
     Esta página y la del formulario del punto 2 deben contar con una barra de navegación que permita ir a una u otra pantalla.
