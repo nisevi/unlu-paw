@@ -18,8 +18,8 @@
             <input type="text" name="age">
         </fieldset>
         <fieldset>
-            <label class="apt-form" for="shoessize">Shoes Size</label>
-            <input type="number" min="20" max="45" step="1" name="shoessize" />
+            <label class="apt-form" for="shoes_size">Shoes Size</label>
+            <input type="number" min="20" max="45" step="1" name="shoes_size" />
         </fieldset>
         <fieldset>
             <label class="apt-form" for="hight">Height in centimeters</label>
@@ -27,12 +27,12 @@
             <output id="rangevalue">180</output>
         </fieldset>
         <fieldset>
-            <label class="apt-form" for="birthdate">Birthdate</label>
-            <input type="date" name="birthdate" required>
+            <label class="apt-form" for="birth_date">Birth Date</label>
+            <input type="date" name="birth_date" required>
         </fieldset>
         <fieldset>
-            <label class="apt-form" for="haircolor">Hair color</label>
-            <input type="color" name="haircolor">
+            <label class="apt-form" for="hair_color">Hair color</label>
+            <input type="color" name="hair_color">
         </fieldset>
         <fieldset>
             <label class="apt-form" for="date">Date</label>
