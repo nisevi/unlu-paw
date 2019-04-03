@@ -6,7 +6,7 @@ This APP it has the ambition to solve the points that have been stablished [here
 
 ## Setup
 
-You only need to run a couple commands if you want to get it running:
+You only need to run one command if you want to get it running:
 
 ```bash
 php -S localhost:8000
