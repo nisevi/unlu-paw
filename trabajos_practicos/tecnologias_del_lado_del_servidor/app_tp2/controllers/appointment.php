@@ -10,3 +10,4 @@ if ($error) {
 } else {
   require dirname(__FILE__) . "/../views/index.view.php";
 }
+

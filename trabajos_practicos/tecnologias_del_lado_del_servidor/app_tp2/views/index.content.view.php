@@ -40,7 +40,7 @@
         </fieldset>
         <fieldset>
             <label class="apt-form" for="time">Time</label>
-            <input type="time" name="time">
+            <input type="time" min="8:00" max="17:00" step="900" name="time">
         </fieldset>
         <fieldset>
             <button id="submit" class="black-button" type="submit" form="appointment">Submit</button>
