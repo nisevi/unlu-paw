@@ -3,5 +3,6 @@
 $title = "Contact page";
 $main_title = "Contact with us!";
 $content = "";
+$error = NULL;
 
-require "views/contact.view.php";
+require dirname(__FILE__) . "/../views/contact.view.php";

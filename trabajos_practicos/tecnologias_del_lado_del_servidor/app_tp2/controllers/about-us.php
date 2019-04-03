@@ -3,5 +3,6 @@
 $title = "About us";
 $main_title = "Something about us!";
 $content = "";
+$error = NULL;
 
-require "views/about-us.view.php";
+require dirname(__FILE__) . "/../views/about-us.view.php";

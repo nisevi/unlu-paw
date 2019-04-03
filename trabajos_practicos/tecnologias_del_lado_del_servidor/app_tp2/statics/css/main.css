@@ -2,36 +2,103 @@ body {
   background: #4e514e;
 }
 
-header, main {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+header,
+main {
   max-width: 1024px;
   margin: auto;
   background: white;
-  padding: 10px;
+  padding: 0 0 10px 0;
 }
 
 /* Nav styles */
 
-nav.main-nav ol {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
+nav.main-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-nav.main-nav ol li a {
+nav.main-nav ul li {
+  float: left;
+}
+
+nav.main-nav ul li a {
   display: block;
-  color: #000;
-  padding: 8px 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
 }
 
-nav.main-nav ol li a:hover {
-  background-color: #555;
-  color: white;
+nav.main-nav ul li a:hover {
+  background-color: #111;
 }
 
 .active {
-  background-color: #8D9E8D;
+  background-color: #8d9e8d;
   color: white;
+}
+
+/* Button styles */
+
+.black-button {
+  background-color: #2a2929; /* Green */
+  border: none;
+  color: white;
+  padding: 0.5em 1em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  margin: 0.25em 0.125em;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.white-to-black {
+  border-radius: 0.75em;
+  background-color: white;
+  color: black;
+  border: 0.125em solid white;
+}
+
+.white-to-black:hover {
+  background-color: #1d2026;
+  color: white;
+  border: 0.125em solid white;
+}
+
+.black-to-white {
+  background-color: #1d2026;
+  font-weight: 600;
+  color: white;
+  border: 0.125em solid #1d2026;
+}
+
+.black-to-white:hover {
+  background-color: white;
+  color: #1d2026;
+  border: 0.125em solid #1d2026;
+}
+
+/* Form styles */
+
+.apt-form {
+  display: inline-block;
+  width: 150px;
+}
+
+fieldset {
+  width: 350px;
 }
