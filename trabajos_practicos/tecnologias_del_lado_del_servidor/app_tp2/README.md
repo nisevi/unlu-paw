@@ -14,6 +14,24 @@ php -S localhost:8000
 
 Run the above command in the root directory, meaning where this README.md file lives and the you will find everything working [here](http://localhost:8000/).
 
+## Screenshots
+
+**Home**
+
+When in [home](http://localhost:8000/) you will find the form you need to fill for making an appointment:
+
+![](https://github.com/mjuanico/paw-tp2/blob/master/images/home.png)
+
+**Appointment**
+
+When in [appointment](http://localhost:8000/appointment) once you have filled and sent the form you will see a summarized form with the data from your appointment:
+
+![](https://github.com/mjuanico/paw-tp2/blob/master/images/appointment.png)
+
+**Appointments list**
+
+![](https://github.com/mjuanico/paw-tp2/blob/master/images/appointments_page_list.png)
+
 ~~## Faltante~~
 
 - ~~Falta generar un conector para bases de datos~~

@@ -11,6 +11,11 @@ h6 {
   margin: 0;
 }
 
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 800px;
+}
 header,
 main {
   max-width: 1024px;
@@ -94,11 +99,69 @@ nav.main-nav ul li a:hover {
 
 /* Form styles */
 
-.apt-form {
+form.show {
+  width: 350px;
+}
+
+.appointment-label.show {
   display: inline-block;
   width: 150px;
 }
 
-fieldset {
+.appointment-input.show {
+  display: inline-block;
+  width: 190px;
+}
+
+.width-350.show {
   width: 350px;
+}
+
+.fill-width.show {
+  width: 100%;
+}
+
+.uploaded-image.show {
+  width: 100%;
+  height: 250px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+/* Main container */
+
+.main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-container > h1,
+.main-container > h2,
+.main-container > form {
+  margin-top: 10px;
+  align-self: center;
+}
+
+fieldset {
+  margin-top: 10px;
+}
+
+/* Error styles */
+
+.errors {
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+}
+
+.error {
+  color: #ff6347;    
+  padding-left: 0px;
+}
+
+/* Table styles */
+table, th, td {
+  border: 1px solid black;
 }

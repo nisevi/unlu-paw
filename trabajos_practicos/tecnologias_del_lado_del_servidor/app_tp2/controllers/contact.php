@@ -2,7 +2,7 @@
 
 $title = "Contact page";
 $main_title = "Contact with us!";
-$content = "";
-$error = NULL;
+$content = "require 'contact.content.view.php';";
+$error = "";
 
-require dirname(__FILE__) . "/../views/contact.view.php";
+require $app->root_path . "views/contact.view.php";

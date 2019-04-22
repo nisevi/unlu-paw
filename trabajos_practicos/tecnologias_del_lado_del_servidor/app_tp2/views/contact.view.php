@@ -1,3 +1,3 @@
 <?php
 
-require dirname(__FILE__) . "/base.view.php";
+require $app->root_path . "views/base.view.php";

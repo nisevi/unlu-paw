@@ -2,7 +2,8 @@
 
 $title = "OSDE";
 $main_title = "Make your request!";
-$content = "";
-$error = NULL;
+$subtitle = "Fields marked with an asterisk (*) are required";
+$content = "require 'index.content.view.php';";
+$error = "";
 
-require dirname(__FILE__) . "/../views/index.view.php";
+require $app->root_path . "views/index.view.php";
