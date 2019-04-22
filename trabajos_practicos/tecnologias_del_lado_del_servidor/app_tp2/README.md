@@ -31,8 +31,3 @@ When in [appointment](http://localhost:8000/appointment) once you have filled an
 **Appointments list**
 
 ![](https://github.com/mjuanico/paw-tp2/blob/master/images/appointments_page_list.png)
-
-~~## Faltante~~
-
-- ~~Falta generar un conector para bases de datos~~
-- ~~Falta elaborar el concepto de modelo dentro de la estructura~~
