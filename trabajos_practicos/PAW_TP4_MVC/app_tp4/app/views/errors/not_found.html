@@ -1,0 +1,16 @@
+{% extends "shared/base.html" %}
+
+{% block title %}404{% endblock %}
+
+{% block header %}
+  {{ include('shared/nav.html') }}
+{% endblock %}
+
+{% block head %}
+    {{ parent() }}
+    <meta name="keywords" content="PAW,2018,Templates,PHP">
+{% endblock %}
+
+{% block main %}
+    <img class="img-404" src="/public/images/404.jpg">
+{% endblock %}

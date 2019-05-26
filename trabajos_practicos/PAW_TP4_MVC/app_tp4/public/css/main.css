@@ -1,0 +1,180 @@
+body {
+    background: #4e514e;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+header,
+main {
+    max-width: 1024px;
+    margin: auto;
+    background: white;
+    padding: 0 0 0 0;
+}
+
+/* Nav styles */
+
+nav.main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav.main-nav ul li {
+    float: left;
+}
+
+nav.main-nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav.main-nav ul li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #8d9e8d;
+    color: white;
+}
+
+/* Button styles */
+
+.black-button {
+    background-color: #2a2929; /* Green */
+    border: none;
+    color: white;
+    padding: 0.5em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 0.25em 0.125em;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.white-to-black {
+    border-radius: 0.75em;
+    background-color: white;
+    color: black;
+    border: 0.125em solid white;
+}
+
+.white-to-black:hover {
+    background-color: #1d2026;
+    color: white;
+    border: 0.125em solid white;
+}
+
+.black-to-white {
+    background-color: #1d2026;
+    font-weight: 600;
+    color: white;
+    border: 0.125em solid #1d2026;
+}
+
+.black-to-white:hover {
+    background-color: white;
+    color: #1d2026;
+    border: 0.125em solid #1d2026;
+}
+
+/* Form styles */
+
+form.show {
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+.appointment-label.show {
+    display: inline-block;
+    width: 150px;
+}
+
+.appointment-input.show {
+    display: inline-block;
+    width: 190px;
+}
+
+.width-350.show {
+    width: 350px;
+}
+
+.fill-width.show {
+    width: 100%;
+}
+
+.uploaded-image.show {
+    width: 100%;
+    height: 250px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+/* Main container */
+
+.main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-container > h1,
+.main-container > h2,
+.main-container > p,
+.main-container > form {
+    margin-top: 10px;
+    align-self: center;
+}
+
+fieldset {
+    margin-top: 10px;
+}
+
+/* Error styles */
+
+.img-404,
+.img-500 {
+    width: 100%;
+    height: auto;
+}
+
+.errors {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.error {
+    color: #ff6347;
+    padding-left: 0px;
+}
+
+/* Table styles */
+table, th, td {
+    border: 1px solid black;
+}
+
+/* Link styles */
+p.align-right {
+    width: 350px;
+    text-align: right;
+}

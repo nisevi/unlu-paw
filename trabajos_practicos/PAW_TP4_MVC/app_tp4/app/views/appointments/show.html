@@ -1,0 +1,69 @@
+{% extends "shared/base.html" %}
+
+{% block title %}Show{% endblock %}
+
+{% block header %}
+    {{ include('errors/validation_errors.html') }}
+    {{ include('shared/nav.html') }}
+{% endblock %}
+
+{% block head %}
+    {{ parent() }}
+    <meta name="keywords" content="PAW,2018,Templates,PHP">
+{% endblock %}
+
+{% block main %}
+    <form class="show">
+        <fieldset class="width-350">
+            <label class="appointment-label show" for="name">ID</label>
+            <input class="appointment-input show" name="id" readonly value={{ appointment.id }}>
+        </fieldset>
+        <fieldset class="width-350">
+            <label class="appointment-label show" for="name">NAME</label>
+            <input class="appointment-input show" name="name" readonly value={{ appointment.name }}>
+        </fieldset>
+        <fieldset class="width-350">
+            <label class="appointment-label show" for="email">EMAIL</label>
+            <input class="appointment-input show" name="email" readonly value={{ appointment.email }}>
+        </fieldset>
+        <fieldset class="width-350">
+            <label class="appointment-label show" for="phone">PHONE</label>
+            <input class="appointment-input show" name="phone" readonly value={{ appointment.phone }}>
+        </fieldset>
+        <fieldset class="width-350">
+            <label class="appointment-label show" for="age">AGE</label>
+            <input class="appointment-input show" name="age" readonly value={{ appointment.age }}>
+        </fieldset>
+        <fieldset class="width-350">
+            <label class="appointment-label show" for="shoes_size">SHOES SIZE</label>
+            <input class="appointment-input show" name="shoes_size" readonly value={{ appointment.shoes_size }}>
+        </fieldset>
+        <fieldset class="width-350">
+            <label class="appointment-label show" for="hight">HEIGHT</label>
+            <input class="appointment-input show" name="height" readonly value={{ appointment.height }}>
+        </fieldset>
+        <fieldset class="width-350">
+            <label class="appointment-label show" for="birth_date">BIRTH DATE</label>
+            <input class="appointment-input show" name="birth_date" readonly value={{ appointment.birth_date}}>
+        </fieldset>
+        <fieldset class="width-350">
+            <label class="appointment-label show" for="hair_color">HAIR COLOR</label>
+            <input class="appointment-input show" type="color" name="hair_color" readonly value={{ appointment.hair_color}}>
+        </fieldset>
+        <fieldset class="width-350">
+            <label class="appointment-label show" for="date">DATE</label>
+            <input class="appointment-input show" name="date" readonly value={{ appointment.date }}>
+        </fieldset>
+        <fieldset class="width-350">
+            <label class="appointment-label show" for="time">TIME</label>
+            <input class="appointment-input show" name="time" readonly value={{ time }}>
+        </fieldset>
+        {% if (appointment.image) %}
+            <fieldset class="width-350">
+                <label class="appointment-label fill-width show" for="diagnostic">UPLOADED IMAGE</label>
+                <img  class="uploaded-image show" src="data:image/png;base64,{{ image_base_64 }}" />
+            </fieldset>
+        {% endif %}
+    </form>
+    <p class="align-right"><a href="/appointments">Back to appointments</a></p>
+{% endblock %}
