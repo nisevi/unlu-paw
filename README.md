@@ -13,11 +13,11 @@ Repositorio dedicado a la materia [Programación en Ambiente Web](http://www.unl
 
 ## Videos de las clases teóricas:
 
-1. 13-MARZO-2019;
-2. 20-MARZO-2019;
-3. 27-MARZO-2019;
-4. 03-ABRIL-2019;
-5. 10-ABRIL-2019;
-6. 24-ABRIL-2019;
-7. 08-MAYO-2019;
-8. 22-MAYO-2019;
+1. [13-MARZO-2019](https://s3.amazonaws.com/nisevi-paw/videos/03-13-2019-PAW.mp4);
+2. [20-MARZO-2019](https://s3.amazonaws.com/nisevi-paw/videos/03-20-2019-PAW.mp4);
+3. [27-MARZO-2019](https://s3.amazonaws.com/nisevi-paw/videos/03-27-2019-PAW.mp4);
+4. [03-ABRIL-2019](https://s3.amazonaws.com/nisevi-paw/videos/04-03-2019-PAW.mp4);
+5. [10-ABRIL-2019](https://s3.amazonaws.com/nisevi-paw/videos/04-10-2019-PAW.mp4);
+6. [24-ABRIL-2019](https://s3.amazonaws.com/nisevi-paw/videos/04-24-2019-PAW.mp4);
+7. [08-MAYO-2019](https://s3.amazonaws.com/nisevi-paw/videos/05-08-2019-PAW.mp4);
+8. [22-MAYO-2019](https://s3.amazonaws.com/nisevi-paw/videos/05-22-2019-PAW.mp4);
