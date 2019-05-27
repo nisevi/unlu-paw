@@ -167,4 +167,4 @@
 
 ## Práctico
 
-[Aquí](https://github.com/nisevi/paw/tree/master/trabajos_practicos/tecnologias_del_lado_del_servidor/app_tp2) puede encontrar el proyecto.
+[Aquí](https://github.com/nisevi/paw/tree/master/trabajos_practicos/PAW_TP2_PHP/app_tp2) puede encontrar el proyecto.
