@@ -1,0 +1,92 @@
+@import url(reset.css);
+
+/*Buscaminas*/
+
+.tablero{
+    width: 416px;
+    height: 416px;								
+    border: 1px solid #d0d0d0;
+    margin-left: 33%;
+    margin-top: 120px;				
+}
+
+.tablero div{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #d0d0d0;
+    float: left;
+    background-color: #a9a9a9;				
+    font-size: 30;	
+    text-align: center;
+}
+
+
+/*Criptograma*/
+
+.boton {
+    margin:20px;
+    font-size: 18px;
+    padding: 10px;
+    width: 120px;
+}
+
+.oculto {
+    display: none;
+    border:solid 1px;
+}
+
+.grilla{
+  margin: 50px;
+  padding: 5px 0px;
+  display: grid;
+  grid-template-columns: repeat(27, 30px)
+                       
+}
+
+.ingresar{
+    text-align: center;
+    width: 30px;
+    border: solid 1px;
+}
+
+.simbolo{
+    text-align: center;
+}
+
+.posicionSimbolo{
+    text-align: center;
+}
+
+.vacio{
+    width:27px;
+    text-align: center;
+}
+
+.muestra{
+    display: grid;
+    margin: 50px;
+    grid-template-columns: repeat(auto-fill, 35px);
+}
+
+.guion{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.simboloFrase{
+    text-align: center;
+}
+
+.cuadroRespuesta{
+    display: grid;
+    border: solid 1px;
+    width: 35px;
+    margin:1px;
+    height: 50px;
+    
+}
+
+.cuadroLetra {
+    text-align: center;
+    height: 0px;
+}
