@@ -10,3 +10,14 @@ Repositorio dedicado a la materia [Programación en Ambiente Web](http://www.unl
 - [Apuntes](https://github.com/nisevi/paw/blob/master/lecture-notes-lectures-1-12-web-development-lecturer-phil-joyce.pdf);
 - [Trabajos prácticos](https://github.com/nisevi/paw/tree/master/trabajos_practicos);
 - [Parciales](https://github.com/nisevi/paw/tree/master/parciales);
+
+## Videos de las clases teóricas:
+
+1. 13-MARZO-2019;
+2. 20-MARZO-2019;
+3. 27-MARZO-2019;
+4. 03-ABRIL-2019;
+5. 10-ABRIL-2019;
+6. 24-ABRIL-2019;
+7. 08-MAYO-2019;
+8. 22-MAYO-2019;
