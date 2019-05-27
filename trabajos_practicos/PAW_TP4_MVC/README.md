@@ -55,3 +55,7 @@
    En la imagen que se ve a continuación se puede observar la columna de acciones `Show`, `Edit` y `Delete`. Haciendo click en cualquiera de estas acciones queda implementado el punto 5.
    
    ![](https://github.com/mjuanico/paw-tp4/blob/master/docs/images/CRUD.png)
+   
+## Práctico
+
+[Aquí](https://github.com/nisevi/paw/tree/master/trabajos_practicos/PAW_TP4_MVC/app_tp4) puede encontrar el proyecto.
